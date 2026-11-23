@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" role="img" aria-label="Foto ilustrativa — substituir por foto real do salão">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2=".6" y2="1"><stop offset="0" stop-color="#F4ECE4"/><stop offset=".55" stop-color="#EADBCD"/><stop offset="1" stop-color="#D9C3B0"/></linearGradient>
+    <radialGradient id="glow" cx=".3" cy=".25" r=".6"><stop offset="0" stop-color="#FFFFFF" stop-opacity=".85"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <rect width="640" height="800" fill="url(#glow)"/>
+  <!-- espelho em arco -->
+  <path d="M190 700V330a130 130 0 0 1 260 0v370" fill="none" stroke="#C2A36B" stroke-width="3"/>
+  <path d="M215 700V335a105 105 0 0 1 210 0v365" fill="#FBF8F4" fill-opacity=".45"/>
+  <!-- ramo botânico -->
+  <g fill="none" stroke="#A88B76" stroke-width="2.2" stroke-linecap="round">
+    <path d="M500 760c-10-120 10-230 60-330"/>
+    <path d="M512 640c30-8 52-28 62-58-32 4-54 24-62 58Z"/>
+    <path d="M506 560c-30-6-50-26-58-54 30 4 50 22 58 54Z"/>
+    <path d="M530 480c28-10 46-32 52-60-30 6-48 28-52 60Z"/>
+  </g>
+  <!-- bancada -->
+  <rect x="80" y="700" width="480" height="10" rx="5" fill="#A88B76" opacity=".55"/>
+  <circle cx="150" cy="680" r="20" fill="#FBF8F4" stroke="#C2A36B" stroke-width="2"/>
+  <rect x="118" y="620" width="18" height="80" rx="9" fill="#D9C3B0"/>
+</svg>
